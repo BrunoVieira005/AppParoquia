@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HorariosScreen(),
+      
     );
   }
 }
@@ -40,14 +40,7 @@ class HorariosScreen extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.church), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.chat), label: ''),
-        ],
-      ),
-    );
+);
   }
 
   Widget _buildSectionTitle(String title) {
