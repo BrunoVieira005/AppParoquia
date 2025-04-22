@@ -1,0 +1,82 @@
+[
+  {
+    "data": "05/03/2025",
+    "nome": "Quarta Feira de Cinzas",
+    "tipo": "FACULTATIVO",
+    "descricao": "A Quarta-feira de Cinzas marca o início da Quaresma, período de 40 dias de preparação para a Páscoa.",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "17/04/2025",
+    "nome": "Quinta-feira Santa",
+    "tipo": "FACULTATIVO",
+    "descricao": "A Quinta-feira Santa celebra a Última Ceia de Jesus com seus discípulos, instituindo a Eucaristia e o mandamento do amor.",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "29/06/2025",
+    "nome": "São Pedro",
+    "tipo": "FACULTATIVO",
+    "descricao": "São Pedro, um dos doze apóstolos de Jesus, é considerado o primeiro papa da Igreja Católica e padroeiro dos pescadores.",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "08/12/2025",
+    "nome": "Nossa Senhora da Conceição",
+    "tipo": "FACULTATIVO",
+    "descricao": "Nossa Senhora da Conceição é uma festa católica que celebra a pureza de Maria desde seu nascimento.",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "19/03/2025",
+    "nome": "São José",
+    "tipo": "FACULTATIVO",
+    "descricao": "São José, esposo de Maria e padroeiro das famílias e dos trabalhadores.",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "24/06/2025",
+    "nome": "São João Batista",
+    "tipo": "FACULTATIVO",
+    "descricao": "Festa de São João, celebrada principalmente no Nordeste do Brasil, com destaque para as festas juninas.",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "16/07/2025",
+    "nome": "Nossa Senhora do Carmo",
+    "tipo": "FACULTATIVO",
+    "descricao": "Festa dedicada à Nossa Senhora do Carmo, padroeira de muitas cidades e das ordens carmelitas.",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "15/08/2025",
+    "nome": "Assunção de Maria",
+    "tipo": "FACULTATIVO",
+    "descricao": "Comemoração da Assunção de Maria, quando se celebra a elevação da Virgem Maria ao céu.",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "12/10/2025",
+    "nome": "Nossa Senhora Aparecida",
+    "tipo": "FACULTATIVO",
+    "descricao": "Nossa Senhora Aparecida, padroeira do Brasil.",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "01/11/2025",
+    "nome": "Todos os Santos",
+    "tipo": "FACULTATIVO",
+    "descricao": "Festa de Todos os Santos, celebrada para honrar todos os santos e mártires.",
+    "uf": "",
+    "municipio": ""
+  }
+]

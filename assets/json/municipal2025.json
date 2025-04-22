@@ -1,0 +1,34 @@
+[
+  {
+    "data": "18/04/2025",
+    "nome": "Sexta-feira Santa",
+    "tipo": "MUNICIPAL",
+    "descricao": "A Sexta-feira Santa relembra a crucificação e morte de Jesus Cristo.",
+    "uf": "SP",
+    "municipio": "Campinas"
+  },
+  {
+    "data": "19/06/2025",
+    "nome": "Corpus Christi",
+    "tipo": "MUNICIPAL",
+    "descricao": "Corpus Christi celebra a presença real de Cristo na Eucaristia.",
+    "uf": "SP",
+    "municipio": "Campinas"
+  },
+  {
+    "data": "20/11/2025",
+    "nome": "Consciência Negra",
+    "tipo": "MUNICIPAL",
+    "descricao": "Consciência Negra",
+    "uf": "SP",
+    "municipio": "Campinas"
+  },
+  {
+    "data": "08/12/2025",
+    "nome": "N. Sra da Conceição",
+    "tipo": "MUNICIPAL",
+    "descricao": "Nossa Senhora da Conceição é a padroeira de Campinas e celebra a Imaculada Conceição de Maria.",
+    "uf": "SP",
+    "municipio": "Campinas"
+  }
+]

@@ -1,8 +1,16 @@
 import 'package:flutter/material.dart';
-import 'Login/Login.dart';
-import 'package:projeto_extensao/pages/Horarios.dart'; // Importa a página de Horários
+import 'package:projeto_extensao/pages/Login/Login.dart';
+import 'package:intl/date_symbol_data_local.dart';
+import 'package:projeto_extensao/Horarios.dart'; // Importa a página de Horários
+import 'package:projeto_extensao/sobre.dart';
+import 'package:projeto_extensao/oracoes.dart';
+import 'package:projeto_extensao/pages/Calendarios/CalendarioLitur.dart';
 
-void main() {
+
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await initializeDateFormatting('pt_BR', null);
   runApp(MyApp());
 }
 
@@ -11,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: HomePage(),
     );
   }
 }
@@ -27,9 +35,9 @@ class _HomePageState extends State<HomePage> {
   final List<Widget> _pages = [
     HomePageContent(),
     HorariosScreen(),
+    OracoesPage(),
     LoginScreen(), // Substitua pelas outras páginas
-    Placeholder(),
-    Placeholder(),
+    SobrePage(),
   ];
 
   void _onItemTapped(int index) {
@@ -100,17 +108,36 @@ class HomePageContent extends StatelessWidget {
               title: 'Calendário Litúrgico',
               description: 'Acompanhe o calendário litúrgico e suas celebrações.',
               icon: Icons.calendar_today,
-              onTap: () {},
+              onTap: () {
+                 Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => CalendarioPage()),
+                 );
+              },
             ),
             SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 _buildIconButton(Icons.access_time, 'Horários', () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HorariosScreen()),
+                  );
                   // Navegação removida, pois o BottomNavigationBar gerencia as páginas
                 }),
-                _buildIconButton(Icons.self_improvement, 'Orações', () {}),
-                _buildIconButton(Icons.church, 'Sobre', () {}),
+                _buildIconButton(Icons.self_improvement, 'Orações', () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => OracoesPage()),
+                  );                  
+                }),
+                 _buildIconButton(Icons.church, 'Sobre', () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => SobrePage()),
+                  );
+                }),
               ],
             ),
             SizedBox(height: 10),

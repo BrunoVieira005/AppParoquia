@@ -1,0 +1,74 @@
+[
+  {
+    "data": "01/01/2025",
+    "nome": "Ano Novo",
+    "tipo": "NACIONAL",
+    "descricao": "Ano Novo",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "18/04/2025",
+    "nome": "Sexta-Feira Santa",
+    "tipo": "NACIONAL",
+    "descricao": "Também chamada de Sexta Feira da Paixão, relembra a crucificação e morte de Jesus Cristo.",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "21/04/2025",
+    "nome": "Dia de Tiradentes",
+    "tipo": "NACIONAL",
+    "descricao": "Dia de Tiradentes",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "01/05/2025",
+    "nome": "Dia do Trabalho",
+    "tipo": "NACIONAL",
+    "descricao": "Dia do Trabalho",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "07/09/2025",
+    "nome": "Independência do Brasil",
+    "tipo": "NACIONAL",
+    "descricao": "Independência do Brasil",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "12/10/2025",
+    "nome": "Nossa Senhora Aparecida",
+    "tipo": "NACIONAL",
+    "descricao": "Nossa Senhora Aparecida é a padroeira do Brasil.",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "02/11/2025",
+    "nome": "Dia de Finados",
+    "tipo": "NACIONAL",
+    "descricao": "O Dia de Finados é dedicado à memória dos fiéis falecidos..",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "15/11/2025",
+    "nome": "Proclamação da República",
+    "tipo": "NACIONAL",
+    "descricao": "Proclamação da República",
+    "uf": "",
+    "municipio": ""
+  },
+  {
+    "data": "25/12/2025",
+    "nome": "Natal",
+    "tipo": "NACIONAL",
+    "descricao": "Natal celebra o nascimento de Jesus Cristo.",
+    "uf": "",
+    "municipio": ""
+  }
+]
